@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\drive_key.o"
+".\objects\drive_led.o"
+".\objects\drive_servo.o"
+".\objects\utility_delay.o"
+".\objects\utility_error.o"
+".\objects\utility_exit.o"
+".\objects\utility_gpio.o"
+".\objects\utility_tim.o"
+".\objects\utility_usart.o"
+".\objects\utility_bit.o"
+".\objects\utility_linked_list.o"
+".\objects\utility_queue.o"
+".\objects\utility_stack.o"
+".\objects\rcs_ansi.o"
+".\objects\startup_stm32f10x_ld.o"
+".\objects\system_stm32f10x.o"
+".\objects\misc.o"
+".\objects\stm32f10x_exti.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_tim.o"
+".\objects\stm32f10x_usart.o"
+--library_type=microlib --strict --scatter ".\Objects\advanced_c.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\advanced_c.map" -o .\Objects\advanced_c.axf

@@ -1,0 +1,9 @@
+.\objects\stack_1.o: src\stack.c
+.\objects\stack_1.o: .\inc\stack.h
+.\objects\stack_1.o: S:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stack_1.o: S:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\stack_1.o: S:\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\stack_1.o: S:\Keil5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\stack_1.o: S:\Keil5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\stack_1.o: S:\Keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\stack_1.o: S:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
